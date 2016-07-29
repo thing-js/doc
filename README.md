@@ -1,2 +1,2 @@
-# doc
+# API Document
 The API document.
