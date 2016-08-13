@@ -179,48 +179,312 @@
     </ul>
 </div>
     <div class="main">
-        <h1 class="page-title" data-filename="index.html">Index</h1>
+        <h1 class="page-title" data-filename="Servo.html">Class: Servo</h1>
         
 
 
+
+<section>
+    
+<header>
+    <h2>
+    Servo
+    </h2>
+    
+</header>  
+
+<article>
+    <div class="container-overview">
+    
+    
+    
+        
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="Servo">
+            
+            new Servo<span class="signature">(pins)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            servo.js, line 10
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        RGB LED module.
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>pins</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The pin numbers.</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <h3 class="subsection-title">Methods</h3>
+        
+        <dl>
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="rotate">
+            
+            rotate<span class="signature">(degree)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Number}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            servo.js, line 33
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Rotate the servo.
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>degree</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The degree is between 0 and 180.</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
     
 
 
-    <h3> </h3>
-
-
-
-
-
-
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        Number
+                        
+                    
+            </td>
+            <td class="description last">Current rotation degree.</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
+    
+    
+</dd>
 
+        </dl>
+    
+    
+    
+    
+    
+</article>
 
-
-
-    <section>
-        <article class="readme"><h1>Thing.js</h1><p>Thing.js is a framework provides the fastest and easiest way to develop applications for open hardware devices.</p>
-<h2>Getting Started</h2><p>Blink an LED without any JavaScript code.</p>
-<h3>1. Install Thing.js</h3><pre class="prettyprint source lang-sh"><code>npm install thing-js</code></pre><h3>2. Setup board.json</h3><p>Add a new file <code>board.json</code> and add the below JSON object.</p>
-<pre class="prettyprint source lang-json"><code>{
-  &quot;modules&quot;: {
-    &quot;led&quot; : { &quot;module&quot;: &quot;Led&quot;, &quot;pins&quot;: 44 }
-  },
-  &quot;extensions&quot;: {
-    &quot;thingjs-blink&quot;: { &quot;modules&quot;: &quot;led&quot; }
-  }
-}</code></pre><h3>3. Run</h3><pre class="prettyprint source lang-sh"><code>~/path/to/thing-js/thingjs</code></pre><h2>API Documentation</h2><p>Check the <a target="_blank" href="https://thing-js.github.io/doc">API documentation</a> to see how to control hardware modules on a dev board.</p>
-<h2>Supported Boards</h2><ul>
-<li><a target="_blank" href="https://www.raspberrypi.org">Raspberry Pi</a></li>
-<li><a target="_blank" href="https://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/whatis_7688/index.gsp">Linkit Smart 7688 (Duo)</a></li>
-</ul>
-<h2>Maintainers</h2><ul>
-<li><a target="_blank" href="http://evanxd.io">Evan Tseng</a></li>
-</ul></article>
-    </section>
-
+</section>  
 
 
 
